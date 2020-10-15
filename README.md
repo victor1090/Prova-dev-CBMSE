@@ -11,11 +11,12 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web segu
 
 ## Descrição do desafio
  O objetivo do projeto é criar uma especie de agenda, onde o usuário poderá cadastrar informações (e-mail e telefone) de outras pessoas seguindo os requisitos básicos abaixo.
- - RF01 - O usuário deve ser capaz de adicionar pessoas com seus respectivos contatos.
- - RF02 - O Usuário pode ser capaz de cadastrar mais de um tipo de contato (ex: e-mail, telefone, celular) para a mesma pessoa.
- - RF03 - O Usuário pode cadastrar mais de um contato para o mesmo tipo.
+ - RF01 - O usuário deve ser capaz de adicionar pessoas com seus contatos, por exemplo, email, telefone, celular.
+ - RF02 - O usuário pode ser capaz de cadastrar mais de um tipo de contato para a mesma pessoa, tal como mais de  um número de telefone ou mais de um email.
+ - RF02 - O usuário pode ser capaz de cadastrar mais de um tipo de contato (ex: e-mail, telefone, celular) para a mesma pessoa.
+ - RF03 - O usuário pode cadastrar mais de um contato para o mesmo tipo.
  - RF04 - O sistema deve validar se o contato ja existe.
- - RF05 - Se o contato ja existir, exibi-lo à quem ele pertence.
+ - RF05 - Se o contato ja existir, exibi-lo.
  - RF06 - O usuário deve ser capaz de editar os contatos quando desejar.
  - RF07 - O usuario deve ser capaz de deletar o contato.
  - RF08 - O usuário pode visualizar todos os contatos cadastrados.
