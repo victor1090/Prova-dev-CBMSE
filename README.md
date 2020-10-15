@@ -27,9 +27,9 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web segu
 O desafio será avaliado através dos seguintes critérios.
  - Habilidade em estilização de pagina HTML
  - Programação Orientada a Objetos
- - Cumprimento das funcionalidades
  - Código bem comentado
  - Código limpo
+ - Cumprimento das funcionalidades
 
 ## Documentação
  - O código foi entregue com um arquivo de README claro de como se guiar?
