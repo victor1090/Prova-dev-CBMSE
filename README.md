@@ -10,7 +10,7 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web segu
  - Ao concluir o desafio, enviar um e-mail para francisco.azevedo@cbm.se.gov.br contendo o curriculo.
 
 ## Descrição do desafio
-  O objetivo do projeto é criar uma especie de agenda, onde o usuário poderá cadastrar informações (e-mail e telefone) de outras pessoas seguindo os requisitos básicos abaixo.
+ O objetivo do projeto é criar uma especie de agenda, onde o usuário poderá cadastrar informações (e-mail e telefone) de outras pessoas seguindo os requisitos básicos abaixo.
  - RF01 - O usuário deve ser capaz de adicionar um contato com nome e sobrenome.
  - RF02 - O Usuário pode ser capaz de cadastrar mais de um tipo de contato para a mesma pessoa.
  - RF03 - O Usuário pode cadastrar mais de um contato para o mesmo tipo.
@@ -20,22 +20,12 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web segu
  - RF07 - O usuario deve ser capaz de deletar o contato.
  - RF08 - O usuário pode visualizar todos os contatos cadastrados.
  
- OBS: Qualquer aumento de escopo será permitido desde que não altere os requisiticos funcionais citados.
-
- 
 ## Oque será avaliado?
 O desafio será avaliado através dos seguintes critérios.
  - Habilidade em estilização de pagina HTML
  - Programação Orientada a Objetos
- - Boas práticas como SOLID e Clean Code
- - Arquitetura do projeto
- - Banco de Dados seguindo as melhores práticas
-
-## Entrega
- - O código possui algum controle de dependências?
- - O resultado final está completo para ser executado?
- - O resultado final atende ao que se propõe fazer?
- - O resultado final atende totalmente aos requisitos propostos?
+ - Cumprimento das funcionalidades
+ - Código bem comentado
 
 ## Boas Práticas
  - O código está bem estruturado?
@@ -53,11 +43,3 @@ O desafio será avaliado através dos seguintes critérios.
  - O código possibilita expansão para novas funcionalidades?
  - O código é Don't Repeat Yourself?
  - O código é fácil de compreender?
-
-
-# Sugestões de Tecnologias
- - ReactJS
- - Bootstrap, Material ou qualquer framework de estilização
- - PHP >= 7
- - Postgress | MySQL
- - Laravel
