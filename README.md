@@ -8,6 +8,8 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web segu
  - Após o projeto pronto o candidato deve fazer o *commit e push* para o seu repositório **não sendo necessário** solicitar um **pull-request**
  - O limite de entrega da prova é até as 9:30 do dia 19/10/2020.
  - Ao concluir o desafio, enviar um e-mail para francisco.azevedo@cbm.se.gov.br contendo o curriculo.
+ - Seguir o mock como exemplo (Não obrigatório).
+ - Utilizar o SQL sugerido no projeto (Não obrigatório).
 
 ## Descrição do desafio
  O objetivo do projeto é criar uma especie de agenda, onde o usuário poderá cadastrar informações (e-mail e telefone) de outras pessoas seguindo os requisitos básicos abaixo.
@@ -28,11 +30,6 @@ O desafio será avaliado através dos seguintes critérios.
  - Cumprimento das funcionalidades
  - Código bem comentado
  - Código limpo
-
-## Boas Práticas
- - O código está bem estruturado?
- - O código está fluente na linguagem?
- - O código faz o uso correto de Design Patterns?
 
 ## Documentação
  - O código foi entregue com um arquivo de README claro de como se guiar?
