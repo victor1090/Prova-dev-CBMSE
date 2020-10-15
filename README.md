@@ -8,7 +8,7 @@ Para concorrer a vaga o candidato terá que desenvolver uma aplicação web segu
  - Após o projeto pronto o candidato deve fazer o *commit e push* para o seu repositório **não sendo necessário** solicitar um **pull-request**
  - O limite de entrega da prova é até as 9:30 do dia 19/10/2020.
  - Ao concluir o desafio, enviar um e-mail para francisco.azevedo@cbm.se.gov.br contendo o curriculo.
- - Seguir o mock como exemplo: https://ninjamock.com/s/33517Gx (Não obrigatório).
+ - Prototipo como exemplo das telas: https://ninjamock.com/s/33517Gx (Não obrigatório).
  - Utilizar o SQL sugerido no projeto (Não obrigatório).
 
 ## Descrição do desafio
