@@ -1,39 +1,42 @@
-# Prova  de desenvolvedor Junior CBMSE
+# Responsável
 
-Para concorrer a vaga o candidato terá que desenvolver uma aplicação web seguindo as recomendações abaixo.
-## Sinta-se a vontade para utilizar a tecnologia que desejar. 
+* Victor Santos de Souza - git(victor.souza@dcomp.ufs.br) user: **@victor1090**
 
-## Instruções da prova
- - O candidato deve fazer um **fork** desse repositório e criar sua estrutura de pastas contendo o projeto e o **schema** do banco de dados.
- - Após o projeto pronto o candidato deve fazer o *commit e push* para o seu repositório **não sendo necessário** solicitar um **pull-request**
- - O limite de entrega da prova é até as 9:30 do dia 19/10/2020.
- - Ao concluir o desafio, enviar um e-mail para francisco.azevedo@cbm.se.gov.br contendo o curriculo.
- - Prototipo como exemplo das telas: https://ninjamock.com/s/33517Gx (Não obrigatório).
- - Utilizar o SQL sugerido no projeto (Não obrigatório).
+## Descrição da Implementação
 
-## Descrição do desafio
- O objetivo do projeto é criar uma especie de agenda, onde o usuário poderá cadastrar informações (e-mail e telefone) de outras pessoas seguindo os requisitos básicos abaixo.
- - RF01 - O usuário deve ser capaz de adicionar pessoas com seus contatos, por exemplo, email, telefone, celular.
- - RF02 - O usuário pode ser capaz de cadastrar mais de um tipo de contato (ex: e-mail, telefone, celular) para a mesma pessoa.
- - RF03 - O usuário pode cadastrar mais de um contato para o mesmo tipo.
- - RF04 - O sistema deve validar se o contato ja existe.
- - RF05 - Se o contato ja existir, exibi-lo.
- - RF06 - O usuário deve ser capaz de editar os contatos quando desejar.
- - RF07 - O usuario deve ser capaz de deletar o contato.
- - RF08 - O usuário pode visualizar todos os contatos cadastrados.
- 
-## Oque será avaliado?
-O desafio será avaliado através dos seguintes critérios.
- - Habilidade em estilização de pagina HTML
- - Programação Orientada a Objetos
- - Código bem comentado
- - Código limpo
- - Cumprimento das funcionalidades
+A implementação consiste em um site que funciona como uma agenda eletrônica, fazendo adição,edição e exclusão de pessoas e contatos.
+Para a codificação foi utilizada a linguagem de programação PHP para realizar as operações e as rotinas em conjunto com o banco de dados MySQL. Foi utilizado o software WampServer para fazer a instalação e configuração do servidor HTTP Apache, do banco de Dados MySQL e o suporte a linguagem PHP.
 
-## Documentação
- - O código foi entregue com um arquivo de README claro de como se guiar?
- - O código possui comentários pertinentes?
- - Os commits são pequenos e consistentes?
- - As mensagens de commit são claras?
 
-# Duvidas: jonas.nascimento@cbm.se.gov.br ou abrir uma issue
+Foram criados diversos arquivos para atingir o proposito da aplicação. Existem 11 arquivos php e 1 arquivo html
+que equivalem as funcionalidades básicas que foram solicitadas na aplicação. Sendo eles:
+* index.php - Página inicial da Aplicação que funciona como uma listagem das pessoas adicionadas nos Contatos.
+* adicionar_pessoa.html - Contém o formulário html para a inserção dos dados.
+* adicionar_pessoa.php  - Contém a parte procedural da rotina de inserir o registro no banco de dados.
+* editar_pessoa.php - Contém o formulário já preenchido com os dados da pessoa escolhida para alteração.
+* salvar_editar_pessoa.php - Contém a parte procedural da rotina de alteração de registro no banco de dados.
+* deletar_pessoa.php - Contém a parte procedural da rotina de apagamento de registro no banco de dados.
+* visualizar_contato.php - Lista todos os contatos de uma determinada pessoa escolhida.
+* contato.php - Contém o formulário para a inserção dos dados de um novo contato.
+* adicionar_contato.php - Contém a parte procedural da rotina de inserção de registro no banco de dados.
+* editar_contato.php - Contém o formulário já preenchido com os dados do contato escolhida para alteração.
+* salvar_editar_contato.php - Contém a parte procedural da rotina de alteração de registro no banco de dados.
+* deletar_contato.php - Contém a parte procedural da rotina de apagamento de registro no banco de dados.
+
+
+# Dependências
+
+* Servidor WEB com suporte a linguagem PHP e banco de dados MySQL.
+
+
+# Licença
+
+* [PHP]( https://www.php.net/license/3_01.txt ) .
+
+* [Apache]( http://www.apache.org/licenses/LICENSE-2.0 ).
+
+# Organização
+
+* Pastas
+  * Site - Pasta com os arquivos das funcionalidades da aplicação.
+  * schema do banco - Pasta com o dump do banco de dados utilizado pela aplicação. Foram feita pequenas alterações do banco de dados original, por exemplo, Id auto-incrementavéis.
