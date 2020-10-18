@@ -35,6 +35,8 @@ $result = mysqli_query($conn, $sql);
         form.submit();
       }
     </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <style type="text/css">
         div{
             width: 90%;
@@ -45,9 +47,6 @@ $result = mysqli_query($conn, $sql);
   <body>
     <div>
     <h2>Lista de Contatos</h2>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <br><button type="submit" class="btn btn-outline-success btn-sm" onclick="window.location.href = 'adicionar_pessoa.html'"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Adicionar Pessoa</button><br><br>
     <table class="table table-striped table-bordered">
       <thead>
